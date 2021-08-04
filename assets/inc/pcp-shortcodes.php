@@ -2,7 +2,6 @@
 
 function search_form($args)
 {
-
 	$city = '';
 	if ($args['city'] != '') {
 		$city = $args['city'];
@@ -262,6 +261,9 @@ function pcp_sc_fnc_providers_src_results_with_gmap()
 	}
 	if (isset($_GET['zip'])) {
 		$zip = $_GET['zip'];
+	}
+	if (isset($_GET['postal_code'])) {
+		$zip = $_GET['postal_code'];
 	}
 	if (isset($_GET['address_purpose'])) {
 		$address_purpose = $_GET['address_purpose'];

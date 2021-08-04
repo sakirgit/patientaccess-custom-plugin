@@ -18,6 +18,7 @@ function fb_search_form( $args ){
 	if(isset($_GET['city'])){$city = $_GET['city'];}
 	if(isset($_GET['state'])){$state = $_GET['state'];}
 	if(isset($_GET['zip'])){$zip = $_GET['zip'];}
+	if(isset($_GET['postal_code'])){$zip = $_GET['postal_code'];}
 	if(isset($_GET['address_purpose'])){$address_purpose = $_GET['address_purpose'];}
 	if(isset($_GET['enumeration_type'])){$enumeration_type = $_GET['enumeration_type'];}
 	if(isset($_GET['first_name'])){$first_name = $_GET['first_name'];}
